@@ -1,0 +1,54 @@
+@font-face {
+	font-family: 'Unifont';
+	src: url('../../assets/unifont-15.0.06.otf');
+}
+
+:root {
+	--theme-primary-bg:     #3A3A3A;
+	--theme-primary-fg:     #DCDCCC;
+
+	--theme-normal-black:   #1E2320;
+    --theme-normal-red:     #D78787;
+    --theme-normal-green:   #60B48A;
+    --theme-normal-yellow:  #DFAF8F;
+    --theme-normal-blue:    #506070;
+    --theme-normal-magenta: #DC8CC3;
+    --theme-normal-cyan:    #8CD0D3;
+    --theme-normal-white:   #DCDCCC;
+
+	--theme-bright-black:   #709080;
+    --theme-bright-red:     #DCA3A3;
+    --theme-bright-green:   #C3BF9F;
+    --theme-bright-yellow:  #F0DFAF;
+    --theme-bright-blue:    #94BFF3;
+    --theme-bright-magenta: #EC93D3;
+    --theme-bright-cyan:    #93E0E3;
+    --theme-bright-white:   #FFFFFF;
+}
+
+body {
+	background-color: var(--theme-primary-bg);
+	color: var(--theme-primary-fg);
+}
+
+::selection {
+	background-color: var(--theme-primary-fg);
+	color: var(--theme-primary-bg);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#app {
+	position: absolute;
+	width: calc(100% - 30px);
+	height: calc(100% - 30px);
+	overflow: hidden;
+	padding: 15px;
+}
+
+body, pre {
+	font-family: 'Unifont', monospace;
+}

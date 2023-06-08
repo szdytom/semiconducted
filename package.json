@@ -1,0 +1,28 @@
+{
+  "name": "semiconducted",
+  "version": "0.1.0",
+  "description": "Devlop your digital circuits at ease",
+  "source": "src/index.html",
+  "scripts": {
+    "test": "npx parcel serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szdytom/semiconducted.git"
+  },
+  "author": "szdytom <szdytom@163.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/szdytom/semiconducted/issues"
+  },
+  "homepage": "https://github.com/szdytom/semiconducted#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-inline-string": "^2.9.1",
+    "parcel": "^2.9.1",
+    "process": "^0.11.10"
+  }
+}
